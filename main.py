@@ -5,8 +5,8 @@ import time
 import mysql.connector
 
 
-aws_access_key_id = 'AKIAYXTOYJNVOIM4QC74'
-aws_secret_access_key = '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'
+aws_access_key_id = ''
+aws_secret_access_key = ''
 region_name = 'us-east-1'
 
 
