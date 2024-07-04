@@ -12,7 +12,8 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: env.REPO_URL
+                git url: env.REPO_URL,
+                credentialsId: 12
             }
         }
 
