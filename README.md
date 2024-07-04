@@ -1,4 +1,4 @@
-# go-digit Assessment
+# go-digit Assesment
 
 ## Step 1: Terraform Code (IaC)
 
