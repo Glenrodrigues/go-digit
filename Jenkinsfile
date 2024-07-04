@@ -12,8 +12,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: env.REPO_URL,
-                credentialsId: '12'
+                git 'https://github.com/Glenrodrigues/go-digit.git'
             }
         }
 
